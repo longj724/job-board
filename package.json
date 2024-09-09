@@ -1,0 +1,28 @@
+{
+  "name": "crunchbase-jobs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "got-scraping": "^4.0.6",
+    "graceful-fs": "^4.2.11",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^3.3.2",
+    "p-queue": "^8.0.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.5.4"
+  },
+  "type": "module"
+}
